@@ -2,9 +2,11 @@
 
 ## Introduction
 
-A simple package that wraps up SVG icons into an easy to use wrapper.
+A simple package that wraps up some SVG icon sets into an easy to use Vue wrapper.
 
-Heroicons and Zondicons originally made by Steve Schoger and Adam Wathan.
+Heroicons and Zondicons originally made by [Steve Schoger](https://twitter.com/steveschoger) and [Adam Wathan](https://twitter.com/adamwathan).
+
+While these can be used with any UI framework, they work great with [TailwindCSS](https://tailwindcss.com).
 
 ## Installation
 
@@ -32,8 +34,8 @@ import VIcon from 'vue-tailwind-icons';
 
 Vue.use(VIcon)
 
-// you can also pass options, check options reference below
-Vue.use(VIcon, Options)
+// you can also set the default icon set, check below for set names
+Vue.use(VIcon, { set: 'outline' })
 ```
 
 ```javascript
@@ -41,15 +43,17 @@ Vue.use(VIcon, Options)
 <icon name="plus-circle" class="w-6 h-6" />
 ```
 
-## Options
-
-You can set the default icon set like:
-
-```javascript
-Vue.use(VIcon, { set: 'outline' })
-```
-
 ### Icons sets
 outline
 solid
 zondicons
+
+## License
+
+Vue Tailwind Icons is open-sourced software licensed under [the MIT license](LICENSE.md).
+
+## Credits
+
++ Inspired and developed from [blade-icons](https://github.com/driesvints/blade-icons) by Dries Vints.
++ [Heroicons](https://github.com/refactoringui/heroicons) made by [Steve Schoger](https://twitter.com/steveschoger) and [Adam Wathan](https://twitter.com/adamwathan)
++ [Zond Icons](https://www.zondicons.com) made by [Steve Schoger](https://twitter.com/steveschoger) and [Adam Wathan](https://twitter.com/adamwathan)
