@@ -44,9 +44,9 @@ Vue.use(VIcon, { set: 'outline' })
 ```
 
 ### Icons sets
-outline
-solid
-zondicons
++ outline
++ solid
++ zondicons
 
 ## License
 
