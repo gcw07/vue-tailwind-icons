@@ -1,5 +1,5 @@
 /*!
- * vue-tailwind-icons v0.0.1
+ * vue-tailwind-icons v0.0.2
  * (c) Grant Williams
  * Released under the MIT License.
  */
