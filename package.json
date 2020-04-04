@@ -1,10 +1,13 @@
 {
-  "private": false,
   "name": "vue-tailwind-icons",
-  "version": "0.0.2",
   "description": "A simple vue package to wrap up tailwind icons.",
-  "license": "MIT",
+  "version": "0.0.3",
   "author": "Grant Williams",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcw07/vue-tailwind-icons"
+  },
   "main": "dist/index.js",
   "scripts": {
     "dev": "vue serve Icon.vue",
