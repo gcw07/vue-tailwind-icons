@@ -10,7 +10,7 @@ echo "Compiling Heroicons - Outline..."
 
 rm -f "$COMPONENTS"/heroicon-outline.txt
 
-for FILE in $RESOURCES/heroicons/outline-md/*; do
+for FILE in $RESOURCES/heroicons/outline/*; do
   FILENAME=${FILE##*/}
 
   # Compile outline components...
@@ -32,7 +32,7 @@ echo "Compiling Heroicons - Solid..."
 
 rm -f "$COMPONENTS"/heroicon-solid.txt
 
-for FILE in $RESOURCES/heroicons/solid-sm/*; do
+for FILE in $RESOURCES/heroicons/solid/*; do
   FILENAME=${FILE##*/}
 
   # Compile solid components...
