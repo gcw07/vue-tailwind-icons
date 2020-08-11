@@ -1,7 +1,7 @@
 {
   "name": "vue-tailwind-icons",
   "description": "A simple vue package to wrap up tailwind icons.",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "author": "Grant Williams",
   "license": "MIT",
   "repository": {
