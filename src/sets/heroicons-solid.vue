@@ -54,7 +54,7 @@
     <path fill-rule="evenodd" clip-rule="evenodd" d="M3.29289 9.70711C2.90237 9.31658 2.90237 8.68342 3.29289 8.29289L9.29289 2.29289C9.68342 1.90237 10.3166 1.90237 10.7071 2.29289L16.7071 8.29289C17.0976 8.68342 17.0976 9.31658 16.7071 9.70711C16.3166 10.0976 15.6834 10.0976 15.2929 9.70711L11 5.41421L11 17C11 17.5523 10.5523 18 10 18C9.44772 18 9 17.5523 9 17L9 5.41421L4.70711 9.70711C4.31658 10.0976 3.68342 10.0976 3.29289 9.70711Z" fill="#4A5568"/>
   </svg>
   <svg v-else-if="name === 'arrows-expand'" fill="currentColor" viewBox="0 0 20 20">
-    <path d="M3 8V4M3 4H7M3 4L7 8M15 8V4M15 4H11M15 4L11 8M3 12V16M3 16H7M3 16L7 12M15 16L11 12M15 16V12M15 16H11" stroke="#374151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3 8V4M3 4H7M3 4L7 8M15 8V4M15 4H11M15 4L11 8M3 12V16M3 16H7M3 16L7 12M15 16L11 12M15 16V12M15 16H11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   <svg v-else-if="name === 'at-symbol'" fill="currentColor" viewBox="0 0 20 20">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2426 5.75736C11.8995 3.41421 8.10051 3.41421 5.75736 5.75736C3.41421 8.10051 3.41421 11.8995 5.75736 14.2426C7.79395 16.2792 10.9325 16.5464 13.257 15.0408C13.7205 14.7405 14.3397 14.8729 14.6399 15.3364C14.9402 15.8 14.8078 16.4191 14.3443 16.7194C11.2445 18.7273 7.0606 18.3743 4.34315 15.6569C1.21895 12.5327 1.21895 7.46734 4.34315 4.34315C7.46734 1.21895 12.5327 1.21895 15.6569 4.34315C17.2187 5.90503 18 7.9542 18 10C18 11.6569 16.6569 13 15 13C14.3247 13 13.7015 12.7769 13.2001 12.4003C12.4703 13.3717 11.3085 14 10 14C7.79086 14 6 12.2091 6 10C6 7.79086 7.79086 6 10 6C12.2091 6 14 7.79086 14 10C14 10.5523 14.4477 11 15 11C15.5523 11 16 10.5523 16 10C16 8.46294 15.4144 6.9291 14.2426 5.75736ZM12 10C12 8.89543 11.1046 8 10 8C8.89543 8 8 8.89543 8 10C8 11.1046 8.89543 12 10 12C11.1046 12 12 11.1046 12 10Z" fill="#4A5568"/>
@@ -339,7 +339,7 @@
   </svg>
   <svg v-else-if="name === 'fire'" fill="currentColor" viewBox="0 0 20 20">
     <g clip-path="url(#clip0)">
-      <path d="M14.2426 15.2427C11.8994 17.5858 8.10041 17.5858 5.75727 15.2427C4.5857 14.0711 3.99991 12.5356 3.99991 11C3.99991 9.46449 4.58569 7.92896 5.75727 6.75738C5.75727 9 6 11 9 12C9 10 10 4 11.5 3C12.5 5 13.071 5.58581 14.2425 6.75738C15.4141 7.92896 15.9999 9.46449 15.9999 11C15.9999 12.5356 15.4141 14.0711 14.2426 15.2427Z" fill="#374151" stroke="#374151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M14.2426 15.2427C11.8994 17.5858 8.10041 17.5858 5.75727 15.2427C4.5857 14.0711 3.99991 12.5356 3.99991 11C3.99991 9.46449 4.58569 7.92896 5.75727 6.75738C5.75727 9 6 11 9 12C9 10 10 4 11.5 3C12.5 5 13.071 5.58581 14.2425 6.75738C15.4141 7.92896 15.9999 9.46449 15.9999 11C15.9999 12.5356 15.4141 14.0711 14.2426 15.2427Z" fill="#374151" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M7.87868 15.1213C9.05025 16.2929 10.9497 16.2929 12.1213 15.1213C12.7071 14.5355 13 13.7678 13 13C13 12.2322 12.7071 11.4645 12.1213 10.8787C11.5355 10.2929 11.25 10 10.75 9C10 9.5 9.50005 12.5 9.50005 13.5C7.87868 13.5 7 13 7 13C7 13.7678 7.29289 14.5355 7.87868 15.1213Z" fill="white"/>
     </g>
     <defs>
@@ -353,11 +353,11 @@
   </svg>
   <svg v-else-if="name === 'folder-add'" fill="currentColor" viewBox="0 0 20 20">
     <path d="M2 6C2 4.89543 2.89543 4 4 4H9L11 6H16C17.1046 6 18 6.89543 18 8V14C18 15.1046 17.1046 16 16 16H4C2.89543 16 2 15.1046 2 14V6Z" fill="#374151"/>
-    <path d="M8 11H12M10 9V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8 11H12M10 9V13" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   <svg v-else-if="name === 'folder-download'" fill="currentColor" viewBox="0 0 20 20">
     <path d="M2 6C2 4.89543 2.89543 4 4 4H9L11 6H16C17.1046 6 18 6.89543 18 8V14C18 15.1046 17.1046 16 16 16H4C2.89543 16 2 15.1046 2 14V6Z" fill="#374151"/>
-    <path d="M10 9V13M10 13L8 11M10 13L12 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M10 9V13M10 13L8 11M10 13L12 11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   <svg v-else-if="name === 'folder-open'" fill="currentColor" viewBox="0 0 20 20">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.89543 2.89543 4 4 4H8L10 6H14C15.1046 6 16 6.89543 16 8V9H8C6.34315 9 5 10.3431 5 12V13.5C5 14.3284 4.32843 15 3.5 15C2.67157 15 2 14.3284 2 13.5V6Z" fill="#374151"/>
@@ -365,7 +365,7 @@
   </svg>
   <svg v-else-if="name === 'folder-remove'" fill="currentColor" viewBox="0 0 20 20">
     <path d="M2 6C2 4.89543 2.89543 4 4 4H9L11 6H16C17.1046 6 18 6.89543 18 8V14C18 15.1046 17.1046 16 16 16H4C2.89543 16 2 15.1046 2 14V6Z" fill="#374151"/>
-    <path d="M8 11H12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8 11H12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   <svg v-else-if="name === 'folder'" fill="currentColor" viewBox="0 0 20 20">
     <path d="M2 6C2 4.89543 2.89543 4 4 4H9L11 6H16C17.1046 6 18 6.89543 18 8V14C18 15.1046 17.1046 16 16 16H4C2.89543 16 2 15.1046 2 14V6Z" fill="#4A5568"/>
@@ -631,8 +631,8 @@
     <path fill-rule="evenodd" clip-rule="evenodd" d="M10 1.94446C7.91528 3.81033 5.17437 4.95809 2.16611 4.99891C2.05686 5.64968 2 6.31821 2 7.00003C2 12.2249 5.33923 16.6698 10 18.3172C14.6608 16.6698 18 12.2249 18 7.00003C18 6.31821 17.9431 5.64968 17.8339 4.99891C14.8256 4.95809 12.0847 3.81033 10 1.94446ZM11 14C11 14.5523 10.5523 15 10 15C9.44771 15 9 14.5523 9 14C9 13.4477 9.44771 13 10 13C10.5523 13 11 13.4477 11 14ZM11 7C11 6.44772 10.5523 6 10 6C9.44771 6 9 6.44772 9 7V10C9 10.5523 9.44771 11 10 11C10.5523 11 11 10.5523 11 10V7Z" fill="#4A5568"/>
   </svg>
   <svg v-else-if="name === 'shopping-bag'" fill="currentColor" viewBox="0 0 20 20">
-    <path d="M5 8H15L16 17H4L5 8Z" fill="#374151" stroke="#374151" stroke-width="2" stroke-linejoin="round"/>
-    <path d="M7 6C7 4.34315 8.34315 3 10 3V3C11.6569 3 13 4.34315 13 6V9C13 10.6569 11.6569 12 10 12V12C8.34315 12 7 10.6569 7 9V6Z" stroke="#374151" stroke-width="2"/>
+    <path d="M5 8H15L16 17H4L5 8Z" fill="#374151" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M7 6C7 4.34315 8.34315 3 10 3V3C11.6569 3 13 4.34315 13 6V9C13 10.6569 11.6569 12 10 12V12C8.34315 12 7 10.6569 7 9V6Z" stroke-width="2"/>
     <rect x="6" y="9" width="2" height="2" rx="1" fill="white"/>
     <rect x="12" y="9" width="2" height="2" rx="1" fill="white"/>
   </svg>
