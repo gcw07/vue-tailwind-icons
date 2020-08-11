@@ -14,11 +14,11 @@ for FILE in $RESOURCES/heroicons/outline/*; do
   FILENAME=${FILE##*/}
 
   # Compile outline components...
-  VUE=$COMPONENTS/tmp/heroicon-o-$(echo ${FILENAME} | cut -f 1 -d '.' | cut -c 4-).vue
+  VUE=$COMPONENTS/tmp/heroicon-o-$(echo ${FILENAME} | cut -f 1 -d '.').vue
 
   cp $FILE $VUE
 
-  ICON_NAME=$(echo ${FILENAME} | cut -f 1 -d '.' | cut -c 4-)
+  ICON_NAME=$(echo ${FILENAME} | cut -f 1 -d '.')
 
   FIRST_LINE='<svg v-else-if="name === '\'${ICON_NAME}\''" fill="none" viewBox="0 0 24 24" stroke="currentColor">'
   sed -i '' "1s/.*/$FIRST_LINE/" $VUE
@@ -36,11 +36,11 @@ for FILE in $RESOURCES/heroicons/solid/*; do
   FILENAME=${FILE##*/}
 
   # Compile solid components...
-  VUE=$COMPONENTS/tmp/heroicon-s-$(echo ${FILENAME} | cut -f 1 -d '.' | cut -c 4-).vue
+  VUE=$COMPONENTS/tmp/heroicon-s-$(echo ${FILENAME} | cut -f 1 -d '.').vue
 
   cp $FILE $VUE
 
-  ICON_NAME=$(echo ${FILENAME} | cut -f 1 -d '.' | cut -c 4-)
+  ICON_NAME=$(echo ${FILENAME} | cut -f 1 -d '.')
 
   FIRST_LINE='<svg v-else-if="name === '\'${ICON_NAME}\''" fill="currentColor" viewBox="0 0 20 20">'
   sed -i '' "1s/.*/$FIRST_LINE/" $VUE
